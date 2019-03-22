@@ -44,14 +44,10 @@ function renderStory(story) {
             story.title
         ]),
         h('div', {className: 'metadata'}, [
-            h('span', {}, [
-                'by ',
-                h('b', {}, [story.by])
-            ]),
-            h('span', {}, [
-                ' at ',
-                h('b', {}, [new Date(story.time * 1000).toLocaleString()])
-            ])
+            'by ',
+            h('b', {}, [story.by]),
+            ' at ',
+            h('b', {}, [new Date(story.time * 1000).toLocaleString()])
         ])
     ])
 }
