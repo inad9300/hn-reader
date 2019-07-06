@@ -1,6 +1,6 @@
 # Hacker News Reader
 
-Lightweight reader for Hacker News written in vanilla JavaScript. Includes some
+Lightweight reader for Hacker News written in vanilla JavaScript. It includes some
 exciting features such as infinite scroll and offline support!
 
 ## Getting started
